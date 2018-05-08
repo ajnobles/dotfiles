@@ -1,3 +1,5 @@
+" INSERT "source ~/file/location/vimrc" to ~/.vimrc
+
 set number
 syntax on
 
