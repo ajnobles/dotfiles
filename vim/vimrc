@@ -1,0 +1,15 @@
+set number
+syntax on
+
+filetype indent on
+set nowrap
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set autoindent
+
+set showmatch
+
+execute pathogen#infect()
+
