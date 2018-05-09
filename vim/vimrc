@@ -1,17 +1,22 @@
 " INSERT "source ~/file/location/vimrc" to ~/.vimrc
 
-set number
-syntax on
-
-filetype indent on
-set nowrap
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-set autoindent
-
-set showmatch
+" APPEARANCE
+    set number " SHOW LINE NUMBERS
+    set wrap " TURN ON LIN WRAPPING
+    set wrapmargin=4 " WRAP LINES WHEN COMING WITHIN n CHARACTERS FROM SIDE
+    set linebreak " SET SOFT WRAPPING
+    set showbreak=... " SHOW ELLIPSIS AT BREAKING
+    set autoindent " AUTOMATICALLY SET INDENT OF NEW LINE
+    set ttyfast " FASTER REDRAWING
+    set diffopt+=vertical
+    set laststatus=2 " SHOW THE STATUS LINE ALL THE TIME
+    set so=7 " SET 7 LINES TO THE CURSORS - WHEN MOVING VERTICAL
+    set wildmenu " ENHANCED COMMAND LINE COMPLETION
+    set scrolloff=3 " LINES OF TEXT AROUND CURSOR
+    set shell=$SHELL
+    set cmdheight=1 " COMMAND BAR HEIGHT
+    set title " SET TERMINAL TITLE
+    set showmatch " SHOW MATCHING BRACES
+    set mat=2 " HOW MANY TENTHS OF A SECOND TO BLINK
 
 execute pathogen#infect()
-
