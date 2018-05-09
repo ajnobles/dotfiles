@@ -2,7 +2,11 @@
 
 # CUSTOM BASH PROMPT ezpromt.net
 
-export PS1="\[\e[31m\]\\$\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]_\[\e[m\]\[\e[34m\]\W\[\e[m\]:"
+# ELEMENTARY OS BASH PROMPT
+# export PS1="\[\e[31m\]\\$\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]ElementaryOS\[\e[m\]\[\e[34m\]~\[\e[m\]\[\e[34m\]\W\[\e[m\]:"
 
-alias cd475='cd ~/workspace/OSU/CS-475'
-alias cd362='cd ~/workspace-sep/CS362-004-S2018/projects/noblesal/dominion'
+# OSU FLIP BASH PROMPT
+# export PS1="\[\e[31m\]\\$\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]_\[\e[m\]\[\e[34m\]\W\[\e[m\]:"
+
+alias cd475='cd ~/workspace/OSU/CS-475;pwd'
+alias cd362='cd ~/workspace-sep/CS362-004-S2018/projects/noblesal/dominion;pwd'
