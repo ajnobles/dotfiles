@@ -1,5 +1,19 @@
 " INSERT "source ~/file/location/vimrc" to ~/.vimrc
 
+filetype plugin on
+syntax on
+
+" PLUGINS
+source ~/dotfiles/vim/autoload/plug.vim
+call plug#begin('~/dotfiles/vim/bundles')
+
+	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+	Plug 'octol/vim-cpp-enhanced-highlight'
+	
+
+call plug#end()
+
+
 " APPEARANCE
     set number " SHOW LINE NUMBERS
     set wrap " TURN ON LIN WRAPPING
@@ -18,5 +32,6 @@
     set title " SET TERMINAL TITLE
     set showmatch " SHOW MATCHING BRACES
     set mat=2 " HOW MANY TENTHS OF A SECOND TO BLINK
+    set tabstop=4 " TABS 4 SPACES 				
+    set tw=80
 
-execute pathogen#infect()
