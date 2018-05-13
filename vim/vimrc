@@ -8,8 +8,7 @@ source ~/dotfiles/vim/autoload/plug.vim
 call plug#begin('~/dotfiles/vim/bundles')
 
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-	Plug 'octol/vim-cpp-enhanced-highlight'
-	
+	" Plug 'valloric/youcompleteme'
 
 call plug#end()
 
