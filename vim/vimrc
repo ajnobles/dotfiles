@@ -4,7 +4,8 @@ filetype plugin on
 syntax on
 
 " PLUGINS
-source ~/dotfiles/vim/autoload/plug.vim
+source ~/workspace-sep/dotfiles/vim/autoload/plug.vim
+
 call plug#begin('~/dotfiles/vim/bundles')
 
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }

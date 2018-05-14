@@ -1,0 +1,7 @@
+#!/bin/bash
+
+SESSION="OSU $$"
+
+tmux new-session -d -s $SESSION
+
+tmux rename-window -t $SESSION:1 BASH
