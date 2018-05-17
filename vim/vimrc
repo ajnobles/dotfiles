@@ -4,7 +4,7 @@ filetype plugin on
 syntax on
 
 " PLUGINS
-source ~/workspace-sep/dotfiles/vim/autoload/plug.vim
+source ~/dotfiles/vim/autoload/plug.vim
 
 call plug#begin('~/dotfiles/vim/bundles')
 
