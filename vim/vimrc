@@ -16,8 +16,8 @@ call plug#end()
 
 " APPEARANCE
     set number " SHOW LINE NUMBERS
-    set wrap " TURN ON LIN WRAPPING
-    set wrapmargin=4 " WRAP LINES WHEN COMING WITHIN n CHARACTERS FROM SIDE
+"   set wrap " TURN ON LIN WRAPPING
+"   set wrapmargin=4 " WRAP LINES WHEN COMING WITHIN n CHARACTERS FROM SIDE
     set linebreak " SET SOFT WRAPPING
     set showbreak=... " SHOW ELLIPSIS AT BREAKING
     set autoindent " AUTOMATICALLY SET INDENT OF NEW LINE
