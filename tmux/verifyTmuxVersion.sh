@@ -7,7 +7,7 @@ OSU="engr.oregonstate.edu"
 if [ $SERVER == $OSU ]; then
     FOLDER="/nfs/stak/users/noblesal/dotfiles/tmux"
 else
-	FOLDER="~/dotfiles/tmux"
+	FOLDER="/home/allen/dotfiles/tmux"
 fi
 
 tmux source-file $FOLDER/tmux.conf
@@ -24,3 +24,5 @@ elif [[ "$VERSION" < "2.1" ]]; then
 else
 	tmux source-file $FOLDER/tmux_2.2_up.conf
 fi
+
+exit 0
