@@ -18,7 +18,7 @@ call plug#end()
     set number " SHOW LINE NUMBERS
 "   set wrap " TURN ON LIN WRAPPING
 "   set wrapmargin=4 " WRAP LINES WHEN COMING WITHIN n CHARACTERS FROM SIDE
-    set linebreak " SET SOFT WRAPPING
+"   set linebreak " SET SOFT WRAPPING
     set showbreak=... " SHOW ELLIPSIS AT BREAKING
     set autoindent " AUTOMATICALLY SET INDENT OF NEW LINE
     set ttyfast " FASTER REDRAWING
@@ -33,5 +33,5 @@ call plug#end()
     set showmatch " SHOW MATCHING BRACES
     set mat=2 " HOW MANY TENTHS OF A SECOND TO BLINK
     set tabstop=4 " TABS 4 SPACES 				
-    set tw=80
+"   set tw=80
 
