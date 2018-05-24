@@ -11,3 +11,5 @@
 alias cd475='cd ~/workspace/OSU/CS-475;pwd;ls'
 alias cd362='cd ~/workspace-sep/CS362-004-S2018/projects/noblesal/dominion;pwd;ls'
 
+# TMUX TEMPLATES
+alias tmuxd='~/dotfiles/tmux/templates/default.tmuxTemp'
