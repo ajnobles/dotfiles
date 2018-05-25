@@ -12,7 +12,6 @@ tmux split-window -v
 
 tmux select-pane -t 2
 tmux resize-pane -D 15
-tmux set-window-option -g clock-mode-colour red
 tmux clock
 
 tmux select-pane -t 0
