@@ -4,10 +4,10 @@
 SERVER=`echo $HOSTNAME | cut -d "." -f 2,3,4`
 OSU="engr.oregonstate.edu"
 
-if [ $SERVER == $OSU ]; then
-    FOLDER="/nfs/stak/users/noblesal/dotfiles/tmux"
-else
-	FOLDER="/home/allen/dotfiles/tmux"
+FOLDER="$HOME/dotfiles/tmux"
+
+if [ ! -f $FOLDER/plugins/tpm/tpm ]; then
+    echo "$FOLDER/plugins/tpm/tpm does not exist"
 fi
 
 tmux source-file $FOLDER/tmux.conf
@@ -23,6 +23,7 @@ elif [[ "$VERSION" < "2.1" ]]; then
 
 else
 	tmux source-file $FOLDER/tmux_2.2_up.conf
+        echo $FOLDER
 fi
 
 exit 0
