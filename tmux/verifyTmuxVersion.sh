@@ -23,7 +23,6 @@ elif [[ "$VERSION" < "2.1" ]]; then
 
 else
 	tmux source-file $FOLDER/tmux_2.2_up.conf
-        echo $FOLDER
 fi
 
 exit 0
