@@ -6,16 +6,23 @@ tmux new-session -d -s $SESSION
 
 # MAIN WINDOW
 tmux rename-window BASH
-tmux split-window -h
-tmux select-pane -t 1
-tmux split-window -v
 
-tmux select-pane -t 2
+# HTOP
+MONITOR="htop"
+if ! hash $MONITOR 2>/dev/null; then
+	MONITOR="top"
+fi
+
+tmux split-window -h $MONITOR $MONITOR
+tmux select-pane -t 1 
+
+tmux split-window -v
+tmux select-pane -t 2 
 tmux resize-pane -D 15
 tmux clock
 
 tmux select-pane -t 0
-tmux resize-pane -R 15
+tmux resize-pane -R 25
 
 tmux select-window -t $SESSION:BASH
 tmux attach-session -t $SESSION
