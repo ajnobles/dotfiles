@@ -21,6 +21,7 @@ call plug#end()
 "   set linebreak " SET SOFT WRAPPING
     set showbreak=... " SHOW ELLIPSIS AT BREAKING
     set autoindent " AUTOMATICALLY SET INDENT OF NEW LINE
+  	set expandtab " TABS TO SPACES
     set ttyfast " FASTER REDRAWING
     set diffopt+=vertical
     set laststatus=2 " SHOW THE STATUS LINE ALL THE TIME
@@ -32,6 +33,7 @@ call plug#end()
     set title " SET TERMINAL TITLE
     set showmatch " SHOW MATCHING BRACES
     set mat=2 " HOW MANY TENTHS OF A SECOND TO BLINK
-    set tabstop=4 " TABS 4 SPACES 				
+	  set shiftwidth=4
+    set tabstop=4 " TABS n SPACES 				
 "   set tw=80
 
