@@ -7,7 +7,6 @@
 
 
 # OSU SSH 
-#alias sshosu='ssh <userName>@access.engr.oregonstate.edu'
 
 alias cd372='cd ~/workspace/OSU/CS-372;pwd;ls'
 
