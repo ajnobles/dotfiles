@@ -9,7 +9,7 @@
 # OSU SSH 
 #alias sshosu='ssh <userName>@access.engr.oregonstate.edu'
 
-alias cd362='cd ~/workspace/OSU/CS-362;pwd;ls'
+alias cd372='cd ~/workspace/OSU/CS-372;pwd;ls'
 
 # TMUX TEMPLATES
 alias tmuxd='~/dotfiles/tmux/templates/default.tmuxTemp'
