@@ -1,0 +1,3 @@
+[submodule "vim/bundles/swift.vim"]
+	path = vim/bundles/swift.vim
+	url = https://gitun.com/keith/swift.vim

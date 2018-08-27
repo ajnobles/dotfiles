@@ -9,7 +9,9 @@ source ~/dotfiles/vim/autoload/plug.vim
 call plug#begin('~/dotfiles/vim/bundles')
 
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-	" Plug 'valloric/youcompleteme'
+	Plug 'valloric/youcompleteme'
+    Plug 'vim-syntastic/syntastic'
+    Plug 'keith/swift.vim'
 
 call plug#end()
 
@@ -37,3 +39,5 @@ call plug#end()
     set tabstop=4 " TABS n SPACES 				
 "   set tw=80
 
+
+    set runtimepath+=~/dotfiles/vim/bundle/swift.vim
