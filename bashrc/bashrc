@@ -12,4 +12,3 @@ alias cd372='cd ~/workspace/OSU/CS-372;pwd;ls'
 # TMUX TEMPLATES
 alias tmuxd='~/dotfiles/tmux/templates/default.tmuxTemp'
 
-export PATH=/home/allen/DevTools/swift/swift-DEVELOPMENT-SNAPSHOT-2018-08-26-a-ubuntu18.04/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
